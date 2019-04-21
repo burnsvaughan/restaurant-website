@@ -1,12 +1,71 @@
 
-.container {
+.header-container {
+    width:100vw;
+    height:4vh;
+    max-height:4vh;
     background:#222222;
 }
 
 .social-bar {
-    width:80%;
+    width:80vw;
     height:4vh;
+    max-height:4vh;
     background:#222222;
     color: #a6a6a6;
     margin:0 auto;
+    text-align:right;
 }
+
+.social-icons {
+    float:right;
+}
+
+.social-bar-icons {
+    display:inline-block;
+    height:100%;
+    float:right;
+}
+
+.social-icons{
+height:100%;
+display:inline-block;
+margin: 0 auto;
+font-size: 2.2vh;
+}
+
+.phone-number {
+float:right;
+display:inline-block;
+margin: 0 auto;
+position:relative;
+top:50%;
+transform: translateY(-50%);
+font-size: 2.2vh;
+padding-left: 2.2vh;
+} 
+
+.address {
+float:right;
+display:inline-block;
+margin: 0 auto;
+position:relative;
+top:50%;
+transform: translateY(-50%);
+font-size: 2.2vh;
+padding-left: 2.2vh;
+}
+
+.fab {
+position:relative;
+top:50%;
+transform: translateY(-50%);
+padding-left: 2vh; 
+}
+
+a{
+    text-decoration:none;
+}
+
+.social-icons a{
+    color: #a6a6a6;
+    }

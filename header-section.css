@@ -111,7 +111,7 @@ a{
 }
 
 .nav-links{
-    display:inline-block;
+    display:flex;
     float:right;
     position:relative;
     top:50%;
@@ -119,10 +119,9 @@ a{
 }
 
 .nav a{
-    transform: translateY(-50%);
     text-decoration:none;
+    font-size: 2.5vh;
     color: #a6a6a6;
     padding-left: 2.5vh;
-    font-size: 2.4vh;
 }
 

@@ -69,3 +69,60 @@ a{
 .social-icons a{
     color: #a6a6a6;
     }
+
+    .menu-bar {
+        width:100vw;
+        height:12vh;
+        max-height:12vh;
+        background:#222222;
+    }
+    
+    .menu-bar-items {
+        width:80vw;
+        height:12vh;
+        max-height:12vh;
+        background:#222222;
+        color: #a6a6a6;
+        margin:0 auto;
+        text-align:right;
+    }
+
+.logo {
+    height: 6vh;
+    width: 35vh; 
+    float: left;
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.logo img{
+    height: 6vh;
+    width: 35vh; 
+}
+
+.nav {
+    height: 8vh;
+    width:70vh; 
+    float: right;
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.nav-links{
+    display:inline-block;
+    float:right;
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.nav a{
+    transform: translateY(-50%);
+    text-decoration:none;
+    color: #a6a6a6;
+    padding-left: 2.5vh;
+    font-size: 2.4vh;
+}
+

@@ -1,16 +1,17 @@
 .top-content-area {
 background: url('https://i.postimg.cc/0rghhVRb/background-image.jpg');
 width:100vw;
+background-attachment: fixed;
 background-size: cover;
 background-repeat: no-repeat;
-height:110vh;
+height:120vh;
 margin:0 auto;
 max-width:100%;
 }
 
 .top-content-container {
 width:80vw;
-height:110vh;
+height:120vh;
 margin:0 auto;
 max-width:100%;
 }

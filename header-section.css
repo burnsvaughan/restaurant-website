@@ -1,13 +1,15 @@
-
-.header-container {
+.social-bar{
     width:100vw;
     height:4vh;
     max-height:4vh;
     background:#222222;
+    max-width:100%;
+    margin:0 auto;
 }
 
-.social-bar {
+.social-bar-container{
     width:80vw;
+    max-width:100%;
     height:4vh;
     max-height:4vh;
     background:#222222;
@@ -35,7 +37,6 @@ font-size: 2.2vh;
 
 .phone-number {
 float:right;
-display:inline-block;
 margin: 0 auto;
 position:relative;
 top:50%;
@@ -46,7 +47,6 @@ padding-left: 2.2vh;
 
 .address {
 float:right;
-display:inline-block;
 margin: 0 auto;
 position:relative;
 top:50%;
@@ -70,21 +70,23 @@ a{
     color: #a6a6a6;
     }
 
-    .menu-bar {
-        width:100vw;
-        height:12vh;
-        max-height:12vh;
-        background:#222222;
-    }
+.menu-bar {
+    width:100vw;
+    max-width:100%;
+    height:12vh;
+    max-height:12vh;
+    background:#222222;
+    margin:0 auto;
+    overflow:hidden;
+}
     
-    .menu-bar-items {
+    .menu-bar-container {
         width:80vw;
         height:12vh;
         max-height:12vh;
         background:#222222;
-        color: #a6a6a6;
         margin:0 auto;
-        text-align:right;
+        overflow:hidden;
     }
 
 .logo {
@@ -124,4 +126,3 @@ a{
     color: #a6a6a6;
     padding-left: 2.5vh;
 }
-

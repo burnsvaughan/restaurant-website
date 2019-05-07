@@ -3,6 +3,7 @@
 @import url(description-section.css);
 @import url(offers-section.css);
 @import url(testimonials-section.css);
+@import url(location-address-section.css);
 
 
 /* start css reset  */
@@ -25,7 +26,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-  	font-family: 'Nunito', sans-serif;
+  	font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
 
 }
 /* HTML5 display-role reset for older browsers */

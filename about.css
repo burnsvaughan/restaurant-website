@@ -75,4 +75,91 @@
         top:50%;
         transform: translateY(-50%);
     }
-    
+
+    #mission-section{
+        background:#f7f7f7;
+        height:90vh;
+        width:100%;
+    }
+
+    #section-container {
+        width:90%;
+        height:100%;
+        margin:0 auto;
+    }
+
+    #section-container #right-column {
+        width:33%;
+        float:right;
+        height:80%;
+        padding-top:11vh;
+    }
+
+    #section-container #right-column h1 {
+        font-size:4vh;
+        padding-bottom:2vh;
+    }
+
+    #section-container #right-column p {
+        font-size:2.3vh;
+        padding-bottom:2vh;
+        line-height:1.5;
+    }
+
+    #section-container #left-column {
+        width:67%;
+        float:right;
+        height:100%;
+    }
+
+    #section-container #left-column img {
+        width:90%;
+        position:relative;
+        top:50%;
+        transform: translateY(-50%);
+    }
+  /* start of new american section */  
+
+    #new-american-section{
+        background:white;
+        height:100vh;
+        width:100%;
+    }
+
+    #new-american-section #section-container {
+        width:90%;
+        height:100%;
+        margin:0 auto;
+    }
+
+    #new-american-section #section-container #left-column {
+        width:50%;
+        float:left;
+        height:80%;
+        padding-top:11vh;
+        text-align:right;
+    }
+
+    #new-american-section #section-container #left-column h1 {
+        font-size:4vh;
+        padding-bottom:2vh;
+    }
+
+    #new-american-section #section-container #left-column p {
+        font-size:2.3vh;
+        padding-bottom:2vh;
+        line-height:1.5;
+    }
+
+    #new-american-section #section-container #right-column #img-container{
+    padding-left:10vh;
+    }
+
+    #new-american-section #section-container #right-column {
+        width:50%;
+        float:left;
+    }
+
+    #new-american-section #section-container #right-column img {
+        width:85%;
+    }

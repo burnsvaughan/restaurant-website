@@ -28,7 +28,6 @@
     text-align:center;
 }
 
-
 #top-row h1{
     font-size:2.5vh;
     color:white;
@@ -60,14 +59,12 @@
 #bottom-row #first-column h2{
     font-size:2.8vh;
     color:#CAA064;
-
 }
 
 #bottom-row #first-column p{
     font-size:2.2vh;
     color:white;
     line-height:3.5vh;
-
 }
 
 #bottom-row #first-column a{
@@ -75,7 +72,6 @@
     color:#CAA064;
     text-decoration:none;
     font-style:italic;
-
 }
 
 #bottom-row #second-column {
@@ -91,7 +87,6 @@
 #bottom-row #second-column h2{
     font-size:2.8vh;
     color:#CAA064;
-
 }
 
 #bottom-row #second-column p{
@@ -115,7 +110,6 @@
     box-sizing:border-box;
     /* padding: 0 4vh; */
     padding-top:9vh;
-   
 }
 
 #bottom-row #third-column p{
